@@ -1,0 +1,75 @@
+﻿
+
+@model EvolentTest.Models.Contact
+@{
+    /**/
+
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+@using (Html.BeginForm("SaveContactDetails", "Contact", FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+{
+
+    <div class="col-md-12">
+
+        <div class="col-md-2"> First name</div>
+
+        <div class="col-md-3">
+
+            @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+
+            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+
+        </div>
+
+        <div class="col-md-2">Last Name</div>
+
+        <div class="col-md-3">
+            @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-12">
+
+
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="col-md-12">
+
+        <div class="col-md-2"> Email</div>
+
+        <div class="col-md-3">
+
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+        </div>
+
+        <div class="col-md-2">Phone</div>
+
+        <div class="col-md-3">
+            @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+    <div class="row"></div>
+    <div class="col-md-12">
+        <div class="col-md-2"> Status</div>
+        <div class="col-md-3">
+
+            @Html.CheckBoxFor(m => m.Status,true)
+
+        </div>
+
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-5"> <input class="btn btn-primary" type="submit" id="btnSubmit" value="Submit" /></div>
+    </div>
+    @Html.HiddenFor(x => x.Id)
+}   

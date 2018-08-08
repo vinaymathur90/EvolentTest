@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolentTest", "EvolentTest\EvolentTest.csproj", "{1A42298A-719F-47B9-82BD-E52205B4AE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppEvolent", "WebAppEvolent\WebAppEvolent.csproj", "{ABCCD344-CA3D-4C5C-ACBD-4A5ABE4A0277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A42298A-719F-47B9-82BD-E52205B4AE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A42298A-719F-47B9-82BD-E52205B4AE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A42298A-719F-47B9-82BD-E52205B4AE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A42298A-719F-47B9-82BD-E52205B4AE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCCD344-CA3D-4C5C-ACBD-4A5ABE4A0277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCCD344-CA3D-4C5C-ACBD-4A5ABE4A0277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCCD344-CA3D-4C5C-ACBD-4A5ABE4A0277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCCD344-CA3D-4C5C-ACBD-4A5ABE4A0277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E8688CA-42D8-4BFE-880A-079FBFB9D0CE}
+	EndGlobalSection
+EndGlobal

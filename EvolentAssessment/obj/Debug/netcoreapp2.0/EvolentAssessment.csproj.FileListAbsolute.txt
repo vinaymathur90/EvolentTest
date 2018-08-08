@@ -1,0 +1,11 @@
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\bin\Debug\netcoreapp2.0\EvolentAssessment.deps.json
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\bin\Debug\netcoreapp2.0\EvolentAssessment.runtimeconfig.json
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\bin\Debug\netcoreapp2.0\EvolentAssessment.runtimeconfig.dev.json
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\bin\Debug\netcoreapp2.0\EvolentAssessment.dll
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\bin\Debug\netcoreapp2.0\EvolentAssessment.pdb
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.csprojAssemblyReference.cache
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.csproj.CoreCompileInputs.cache
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.AssemblyInfoInputs.cache
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.AssemblyInfo.cs
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.dll
+C:\Users\Rohit\source\repos\EvolentAssessment\EvolentAssessment\obj\Debug\netcoreapp2.0\EvolentAssessment.pdb
