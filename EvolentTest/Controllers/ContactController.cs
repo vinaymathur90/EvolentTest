@@ -38,23 +38,53 @@ namespace EvolentTest.Controllers
             }
 
         }
-
+        /// <summary>
+        /// return the details view
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Details()
         {
             return View();
         }
+        /// <summary>
+        /// Edit the particular contact information
+        /// </summary>
+        /// <param name="id"> contact unique id</param>
+        /// <returns></returns>
         public ActionResult Edit(int id)
         {
-            Contact contactInformation = new Contact();
-            contactInformation = contactBl.GetContactInformation(id);
-            return View("Details",contactInformation);
-        }
+            try
+            {
+                Contact contactInformation = new Contact();
+                contactInformation = contactBl.GetContactInformation(id);
+                return View("Details", contactInformation);
+            }
+            catch (Exception ex)
+            {
 
+                return Content(ex.Message.ToString());
+            }
+           
+        }
+        /// <summary>
+        /// Delete a particluar contact
+        /// </summary>
+        /// <param name="id">contact unique id</param>
+        /// <returns></returns>
         public ActionResult Delete(int id)
         {
+            try
+            {
 
+            
             contactBl.DeleteContactInformation(id);
             return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+
+                return Content(ex.Message.ToString());
+            }
         }
         /// <summary>
         /// Function will save the Contact Information
